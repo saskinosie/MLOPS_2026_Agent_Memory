@@ -76,6 +76,8 @@ If you fall behind, every notebook has a "fell behind" cell that swaps in the re
 
 **Want the answers?** [`notebooks-completed/`](notebooks-completed/) has the same five notebooks with every TODO filled in and the outputs saved, so you can read along or click through without typing. In the room we run through the completed version together. The exercise version in `notebooks/` is there for when you want to build it yourself.
 
+**Slides.** [`slides/`](slides/) has the PDFs from the session: *Why Agents Fail in Production* (with the Harbor handout we worked through) and the *From Retrieval to Recall* workshop deck.
+
 ## Quick start
 
 ### Prerequisites
@@ -166,6 +168,7 @@ notebooks/
   3-promote-and-decay.ipynb    # Tiers, endorsement, aging (prebuilt walkthrough, 2 optional cells, clock walk)
   4-evaluation.ipynb           # Memory metrics on labeled data (prebuilt walkthrough, 2 optional cells)
 notebooks-completed/           # The same five notebooks, every TODO filled in, outputs saved
+slides/                        # Session slides and the Harbor handout (PDF)
 memory/                        # The governance layer as small importable modules
   connect.py                   # One function, three tiers
   schema.py                    # The MemoryRecord collection
